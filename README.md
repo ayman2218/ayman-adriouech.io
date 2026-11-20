@@ -1,20 +1,26 @@
-# ayman2218.github.io
+# Ayman ADRIOUECH — portfolio source
 
-Portfolio personnel d'Ayman Adriouech — Robotique, IA embarquée & Automobile.
+A responsive single-page portfolio about **automotive embedded software, ADAS validation, robotics and Edge AI**.
 
-## Mise en ligne (GitHub Pages)
+## Website
 
-1. Sur GitHub, créer un dépôt public nommé exactement **`ayman2218.github.io`**.
-2. Y déposer le contenu de ce dossier (`index.html`, `README.md`, dossier `assets/`) :
-   *Add file → Upload files*, puis *Commit changes*.
-3. Dans *Settings → Pages* : Source = **Deploy from a branch**, Branch = **main** / **(root)**.
-4. Après 1 à 2 minutes, le site est en ligne sur **https://ayman2218.github.io**
+This is a GitHub Pages **project repository** named `ayman-adriouech.io` belonging to GitHub account `ayman2218`.
 
-## Structure
-```
-index.html                      page unique (HTML + CSS + JS)
-assets/CV_Ayman_Adriouech.pdf   CV téléchargeable
-assets/chaise-tf.png            visuel du projet chaise robotisée
-```
+If GitHub Pages is enabled for `main` → `/(root)`, the expected URL is:
+**https://ayman2218.github.io/ayman-adriouech.io/**
 
-Pour ajouter des photos ou vidéos de projets : les placer dans `assets/` et les référencer dans `index.html`.
+GitHub Pages must be enabled in **Settings → Pages** by the repository owner if it is not already enabled. Hosting / availability has not been independently verified.
+
+## Content
+
+- `index.html` — responsive public website
+- `projects/` — six technical case studies, including CARLA, Edge AI for ECU, ROS 2 navigation, fall detection, and LEONI high-level experience
+- `assets/` — existing images and a previously uploaded CV; verify that any CV on the public site matches the latest version before linking
+
+**Code availability:** Case studies do not imply the underlying implementations are public. Only link an actual repository where code is available.
+
+**Safety:** Inference timing does not establish ISO 26262 / ASIL compliance. Proprietary internship materials should not be uploaded.
+
+## GitHub profile
+
+[ayman2218](https://github.com/ayman2218)
