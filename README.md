@@ -1,20 +1,11 @@
-# ayman2218.github.io
+# Ayman Adriouech — Portfolio Website
 
-Portfolio personnel d'Ayman Adriouech — Robotique, IA embarquée & Automobile.
+This repository contains **only the portfolio website**, not the individual project codebases.
 
-## Mise en ligne (GitHub Pages)
+## Deploy
+GitHub repository: `ayman2218/ayman-adriouech.io`
+Expected Pages URL: https://ayman2218.github.io/ayman-adriouech.io/
 
-1. Sur GitHub, créer un dépôt public nommé exactement **`ayman2218.github.io`**.
-2. Y déposer le contenu de ce dossier (`index.html`, `README.md`, dossier `assets/`) :
-   *Add file → Upload files*, puis *Commit changes*.
-3. Dans *Settings → Pages* : Source = **Deploy from a branch**, Branch = **main** / **(root)**.
-4. Après 1 à 2 minutes, le site est en ligne sur **https://ayman2218.github.io**
+Enable **Settings → Pages → Deploy from a branch → main / (root)** if not already configured.
 
-## Structure
-```
-index.html                      page unique (HTML + CSS + JS)
-assets/CV_Ayman_Adriouech.pdf   CV téléchargeable
-assets/chaise-tf.png            visuel du projet chaise robotisée
-```
-
-Pour ajouter des photos ou vidéos de projets : les placer dans `assets/` et les référencer dans `index.html`.
+Each project should have a dedicated repository with its real code, documentation, assets, and dependencies. The portfolio only provides summaries and links. Unpublished source repositories are intentionally not represented as working links.
