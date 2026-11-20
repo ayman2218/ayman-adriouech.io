@@ -210,7 +210,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
     <ul class="links" onclick="this.classList.remove('open')">
       <li><a href="#profil">01 Profil</a></li>
       <li><a href="#experience">02 Expérience</a></li>
-      <li><a href="#projets">03 Projets</a></li><li><a href="https://github.com/ayman2218" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+      <li><a href="#projets">03 Projets</a></li>
       <li><a href="#competences">04 Compétences</a></li>
       <li><a href="#formation">05 Formation</a></li>
       <li><a href="#contact">06 Contact</a></li>
@@ -220,12 +220,12 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
 <header class="hero" id="top">
   <div class="wrap">
-    <div class="tag rv"><span class="dot"></span>Disponible pour un stage PFE 2027 · France & Maroc</div>
+    <div class="tag rv"><span class="dot"></span>Candidat Master 2 · France · rentrée 2027-2028</div>
     <h1 class="rv">Ayman<br>Adriouech<span>.</span></h1>
     <p class="lede rv">Élève ingénieur en <strong>Robotique & Automobile</strong> à l'UEMF (Fès). Je conçois des robots autonomes sous <strong>ROS2</strong> et je fais tenir des modèles d'<strong>IA</strong> dans des calculateurs embarqués aux contraintes temps réel.</p>
     <div class="cta rv">
       <a class="btn primary" href="#projets">Voir les projets →</a>
-      <a class="btn" href="https://github.com/ayman2218/ayman-adriouech.io/tree/main/assets" target="_blank" rel="noopener noreferrer">Voir documents GitHub ↗</a>
+      <a class="btn" href="assets/CV_Ayman_Adriouech.pdf" download>Télécharger le CV ↓</a>
     </div>
     <div class="readout rv">
       <div><div class="v">17,08</div><div class="k">moyenne /20 · 2025-26</div></div>
@@ -243,7 +243,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
       <div class="rv">
         <p>Étudiant en cinquième année du cycle ingénieur en Robotique et Automobile à l'Université Euromed de Fès (EIDIA), je me spécialise à l'intersection de la <strong>robotique autonome</strong>, des <strong>systèmes embarqués critiques</strong> et de l'<strong>intelligence artificielle</strong>.</p>
         <p>Mon parcours associe conception de systèmes robotiques, vision par ordinateur, IA embarquée et ingénierie automobile — de l'optimisation de modèles de Deep Learning pour ECU (Edge AI) jusqu'à des architectures robotiques complètes sous ROS2.</p>
-        <p>Je recherche un <strong>stage de fin d’études (PFE) de 5 à 6 mois à partir de janvier 2027</strong> dans les domaines du logiciel automobile, de la validation ADAS et des systèmes embarqués, en France ou au Maroc.</p>
+        <p>Je souhaite approfondir ces compétences scientifiques et techniques en intégrant un <strong>Master 2 en France</strong> pour l'année universitaire 2027-2028.</p>
       </div>
       <div class="facts rv">
         <dl>
@@ -334,7 +334,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
               <tr class="final"><td>PQK</td><td class="num">12,0</td><td class="num hide-sm">10,1 ms</td><td class="num">92,5 %</td></tr>
             </tbody>
           </table>
-          <p style="font-size:14px">Jitter réduit de 2,34 ms à 0,85 ms : un comportement temporel déterministe, à prendre en compte dans l’analyse temporelle. Ces mesures expérimentales ne démontrent pas, à elles seules, une conformité ISO 26262 ou ASIL.</p>
+          <p style="font-size:14px">Jitter réduit de 2,34 ms à 0,85 ms : un comportement temporel déterministe, compatible avec une visée ASIL B.</p>
         </div>
       </div>
     </article>
@@ -410,13 +410,10 @@ V_y = y_hanche(t) − y_hanche(t−4) <span class="r">→ &gt; 0.03</span>
       </div>
     </article>
 
-
-    <div class="project-links rv" style="display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 34px"><a class="btn primary" href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/ecu-edge-ai-pqk.md" target="_blank" rel="noopener noreferrer">Étude détaillée · PQK ↗</a><a class="btn" href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/fall-detection-robot.md" target="_blank" rel="noopener noreferrer">Détection de chutes · détails ↗</a><a class="btn" href="https://github.com/ayman2218/fall" target="_blank" rel="noopener noreferrer">Code détection de chutes · GitHub ↗</a><a class="btn" href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/autonomous-wheelchair-ros2.md" target="_blank" rel="noopener noreferrer">Chaise ROS 2 ↗</a><a class="btn" href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/grass-watch-ros2.md" target="_blank" rel="noopener noreferrer">Grass Watch ↗</a><a class="btn" href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/leoni-zonal-ee-architecture.md" target="_blank" rel="noopener noreferrer">Expérience LEONI ↗</a></div>
-    <article class="feature rv"><div class="top"><span><span class="id">P-05</span> · Automotive / Control</span><span>CARLA · Python</span></div><div class="body"><div><h3>Commande longitudinale & latérale sous CARLA</h3><p>Simulation de conduite autonome : régulation de vitesse par <strong>PID</strong> et suivi de trajectoire latéral par <strong>Stanley</strong>, avec modélisation cinématique et dynamique du véhicule.</p><div class="chips"><span class="chip">CARLA</span><span class="chip">PID</span><span class="chip">Stanley</span><span class="chip">Python</span></div><p style="margin-top:20px"><a class="btn" href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/autonomous-driving-carla.md" target="_blank" rel="noopener noreferrer">Voir l’étude de cas ↗</a></p></div><div class="problem"><b>Disponibilité du code</b><p>Étude documentée à partir de mon CV. Les fichiers de simulation et contrôleurs ne sont pas encore publiés sur GitHub.</p></div></div></article>
     <div class="grid rv">
-      <div class="card"><span class="yr">2024</span><h3>ADAS embarqué sur Raspberry Pi</h3><p>Détection de panneaux de signalisation et de franchissement de voie par CNN, avec commande moteur en temps réel.</p><div class="chips"><span class="chip">CNN</span><span class="chip">OpenCV</span><p style="margin-top:14px"><a href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/raspberry-pi-adas.md" target="_blank" rel="noopener noreferrer">Fiche technique ↗</a></p></div></div>
-      <div class="card"><span class="yr">2025</span><h3>Logique floue pour fonctions ADAS</h3><p>Contrôleur flou embarqué sur Raspberry Pi 5 pour le stationnement autonome et le suivi de ligne, validé en Hardware-in-the-Loop.</p><div class="chips"><span class="chip">Fuzzy</span><span class="chip">HIL</span><p style="margin-top:14px"><a href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/fuzzy-adas-control.md" target="_blank" rel="noopener noreferrer">Fiche technique ↗</a></p></div></div>
-      <div class="card"><span class="yr">2024</span><h3>Bras robotisé joueur d'échecs</h3><p>Reconnaissance du plateau par vision artificielle et commande du bras par cinématique inverse sur Raspberry Pi.</p><div class="chips"><span class="chip">Vision</span><span class="chip">IK</span><p style="margin-top:14px"><a href="https://github.com/ayman2218/ayman-adriouech.io/blob/main/projects/chess-robotic-arm.md" target="_blank" rel="noopener noreferrer">Fiche technique ↗</a></p></div></div>
+      <div class="card"><span class="yr">2024</span><h3>ADAS embarqué sur Raspberry Pi</h3><p>Détection de panneaux de signalisation et de franchissement de voie par CNN, avec commande moteur en temps réel.</p><div class="chips"><span class="chip">CNN</span><span class="chip">OpenCV</span></div></div>
+      <div class="card"><span class="yr">2025</span><h3>Logique floue pour fonctions ADAS</h3><p>Contrôleur flou embarqué sur Raspberry Pi 5 pour le stationnement autonome et le suivi de ligne, validé en Hardware-in-the-Loop.</p><div class="chips"><span class="chip">Fuzzy</span><span class="chip">HIL</span></div></div>
+      <div class="card"><span class="yr">2024</span><h3>Bras robotisé joueur d'échecs</h3><p>Reconnaissance du plateau par vision artificielle et commande du bras par cinématique inverse sur Raspberry Pi.</p><div class="chips"><span class="chip">Vision</span><span class="chip">IK</span></div></div>
     </div>
   </div>
 </section>
